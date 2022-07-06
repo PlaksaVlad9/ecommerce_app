@@ -102,7 +102,7 @@ const Cart = () => {
           <div className='cart-bottom'>
             <div className='total'>
               <h3>Subtotal:</h3>
-              <h3>${totalPrice}</h3>
+              <h3>zł{totalPrice}</h3>
             </div>
             <div className='btn-container'>
               <button type='button' onClick={handleCheckout} className='btn'>
