@@ -13,7 +13,7 @@ const Product = ({ product: { image, slug, name, price } }) => {
         <div className='product-card' onClick={() => setQty(1)}>
           <img src={urlFor(image && image[0])} width='250' height='250' className='product-image' />
           <p className='product-name'>{name}</p>
-          <p className='product-price'>zł{price}</p>
+          <p className='product-price'>${price}</p>
         </div>
       </Link>
     </div>
